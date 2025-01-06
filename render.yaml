@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: my-docker-app
+    env: docker
+    repo: https://github.com/Akshat2113609/Multiservice
+    branch: main
+    dockerfilePath: Dockerfile
+    plan: free
+    healthCheckPath: /
